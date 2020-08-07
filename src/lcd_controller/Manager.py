@@ -1,7 +1,8 @@
 class Manager(object):
 
-    current_uri = ""
-    current_widget = None
+    def __init__(self, menu):
+        self.menu = menu
+        
 
-    def move_up(self):
-        pass
+    def next(self):
+        self.menu.__dispatch__("next")

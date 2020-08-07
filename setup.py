@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 from setuptools import setup, find_packages
 
 setup(
-    name='lcd-controller',
+    name='lcd-controller2',
     version='',
     packages=find_packages('src'),
     package_dir={'': 'src'},
